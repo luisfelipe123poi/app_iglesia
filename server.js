@@ -43,7 +43,7 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/fe_impacto';
 const JWT_SECRET = process.env.JWT_SECRET || 'secreto_super_seguro_fe_impacto';
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5000';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://app-iglesia-g2eh.onrender.com';
 
 const client = new MercadoPagoConfig({ accessToken: process.env.MP_ACCESS_TOKEN || 'TEST-tu-access-token-aqui' });
 
